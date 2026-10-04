@@ -1,0 +1,26 @@
+{
+  "name": "internship-board",
+  "version": "1.0.0",
+  "description": "Internship Board REST API built with Node.js, Express and SQLite (EdVyro Full Stack Development - Task 2)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/db.js",
+    "db:seed": "node src/db.js --seed",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "rest-api",
+    "internship"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
